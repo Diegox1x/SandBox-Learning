@@ -1,0 +1,7 @@
+# Archivos basura del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpeta temporal de VS Code (opcional)
+.vscode/
