@@ -1,5 +1,5 @@
 <style>
-  .GetStarted{
+  .get-started{
     background-color: rgb(121, 82, 179);
     border: none;
     color: white;
@@ -8,27 +8,43 @@
     width: 100px;
     border-radius: 3px;
     cursor: pointer;
+    transition: background-color 0.15s;
   }
 
-  .Download{
-    background-color: rgb (108, 117, 125);
+  .get-started:hover {
+    background-color: rgb(99, 68, 147);
+  }
+
+
+
+  .download{
+    background-color: white;
     border-radius: 2px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(100, 99, 99);
-    color: gray;
+    border-color: rgb(108, 117, 125);
+    color: rgb(108, 117, 125);
     font-weight: bold;
     height: 36px;
     width: 100px;
     cursor: pointer;
+    transition: color 0.15s;
+    transition: background-color 0.15s;
   }
+
+  .download:hover {
+    color: white;
+    background-color: rgb(108, 117, 125);
+  }
+
+
 </style>
 
 
-<button class="GetStarted">
+<button class="get-started">
   Get Started
 </button>
 
-<button class="Download">
+<button class="download">
   Download
 </button>
